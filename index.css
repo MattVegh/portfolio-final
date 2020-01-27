@@ -113,18 +113,6 @@ section:nth-child(even) {
   margin: auto;
 }
 
-@media screen and (min-width: 650px) {
-  .projects-container {
-    flex-direction: row;
-  }
-
-  .project {
-    width: 32%;
-}
-}
-
-
-
 .img-container {
   margin: auto;
   width: 90%;
@@ -154,11 +142,12 @@ section:nth-child(even) {
   color: white;
 }
 
-#quizappss {
-  max-width: 80%;
-  height: auto;
-  object-fit: contain;
-  margin-left: 10%;
-  margin-right: 10%;
-  border-radius: 5px;
+@media screen and (min-width: 650px) {
+  .projects-container {
+    flex-direction: row;
+  }
+
+  .project {
+    width: 32%;
+  }
 }
