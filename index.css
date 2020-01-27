@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+  }
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
+/* colors: 
+white blue rgb(225, 244, 255);
+dark/navy blue rgb(11, 62, 109);
+teal rgb(49, 136, 170);
+*/
+
+body {
+  background-color: white;
+  color: rgb(11, 62, 109);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+main header, main h2 {
+    font-size: 18px;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    line-height: 2;
+    
+  }
+
+main section {
+  font-size: 16px;
+  font-family: 'arimo', sans-serif;
+}
+
+nav {
+    position: fixed;
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: rgb(11, 62, 109);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: rgb(225, 244, 255);
+}
+
+.navbuttons{
+  float: right;
+}
+
+.navbuttons a {
+  padding-right: 30px;
+}
+
+.navhome {
+  text-align: left;
+}
+
+header {
+  text-align: center;
+}
+
+.head-shot {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.headshot-container{
+    height: auto;
+    width: 15%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 650px) {
+  .headshot-container {
+    width: 45%;
+  }
+}
+
+h1 span {
+  text-decoration: line-through;
+  margin-bottom: 0;
+}
+section {
+    min-height: 200px;
+    margin: 0;
+  }
+  
+section:nth-child(even) {
+    color: white;
+    background-color: rgb(11, 62, 109);
+  }
+
+  #aboutme {
+    padding: 0 15px;
+  }
+
+.projects-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+}
+
+@media screen and (min-width: 650px) {
+  .projects-container {
+    flex-direction: row;
+  }
+
+  .project {
+    width: 32%;
+}
+}
+
+
+
+.img-container {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.app-ss {
+  width: 100%;
+  height: auto;
+}
+
+.nba-ss {
+  width: 120%;
+}
+
+.app-link, .github-link {
+  text-decoration: none;
+  color: rgb(11, 62, 109);
+}
+
+.app-link:hover, .github-link:hover {
+  color: rgb(66, 28, 102);
+  font-weight: bold;
+}
+
+.contactlinks a:link, .contactlinks a:visited {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  line-height: 26px;
+  color: white;
+}
+
+#quizappss {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+}
