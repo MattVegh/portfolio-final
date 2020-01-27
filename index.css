@@ -136,10 +136,6 @@ section:nth-child(even) {
   height: auto;
 }
 
-.nba-ss {
-  width: 120%;
-}
-
 .app-link, .github-link {
   text-decoration: none;
   color: rgb(11, 62, 109);
