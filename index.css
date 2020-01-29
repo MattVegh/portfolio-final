@@ -116,6 +116,7 @@ section:nth-child(even) {
     color: white;
     background-color: rgb(11, 62, 109);
   }
+  
 
   #aboutme {
     padding: 0 15px;
@@ -172,7 +173,7 @@ section:nth-child(even) {
 
 
 
-.popup-box{
+.popup-box {
   background:rgba(0,0,0,.4);
   cursor:pointer;
   display:none;
@@ -183,7 +184,7 @@ section:nth-child(even) {
   width:100%;
   z-index:10000;
 }
-.popup-box .helper{
+.popup-box .helper {
   display:inline-block;
   height:100%;
   vertical-align:middle;
