@@ -202,9 +202,7 @@ section:nth-child(even) {
   padding: 5px 5px;
 }
 .popup-close-button {
-  background-color: #fff;
-  border: 3px solid #999;
-  border-radius: 50px;
+  color: rgb(255, 255, 255);
   cursor: pointer;
   display: inline-block;
   font-family: arial;
@@ -219,13 +217,13 @@ section:nth-child(even) {
   text-align: center;
 }
 .popup-close-button:hover {
-  background-color: #ccc;
+  color: rgb(66, 28, 102);
 }
 .trigger_popup{
   cursor: pointer;
 }
 
-.pop-up-img-container {
+.popup-img-container {
   margin: auto;
   width: 100%;
   padding: 10px;
