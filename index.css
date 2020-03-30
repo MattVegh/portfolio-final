@@ -9,7 +9,7 @@ html,body {
 
 body {
   background-color: white;
-  color: rgb(11, 62, 109);
+  color: rgb(7, 14, 56);
 }
 
 main {
@@ -33,7 +33,7 @@ main section {
 nav {
     position: fixed;
     font-family: 'Didact Gothic', sans-serif;
-    background-color: rgb(11, 62, 109);
+    background-color: rgb(7, 14, 56);
     width: 100%;
     padding: 5px;
     margin-bottom: 5px;
@@ -114,7 +114,7 @@ section {
   
 section:nth-child(even) {
     color: white;
-    background-color: rgb(11, 62, 109);
+    background-color: rgb(7, 14, 56);
   }
   
 
