@@ -7,12 +7,42 @@ html,body {
     padding:0;
 }
 
+.side-header {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(7, 14, 56);
+  position: fixed;
+}
+
+.inner-side-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px;
+  height: 100%;
+  position: relative;
+}
+
+.name-title, .subtitle, nav, .nav-home, .nav-link {
+  color: rgb(225, 244, 255);
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 body {
   background-color: white;
   color: rgb(7, 14, 56);
 }
 
 main {
+  width: 75%;
+  margin-left: 25%;
   display: flex;
   flex-direction: column;
 }
@@ -22,7 +52,6 @@ main header, main h2 {
     font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     line-height: 2;
-    
   }
 
 main section {
@@ -30,97 +59,22 @@ main section {
   font-family: 'arimo', sans-serif;
 }
 
-nav {
-    position: fixed;
-    font-family: 'Didact Gothic', sans-serif;
-    background-color: rgb(7, 14, 56);
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 5px;
-}
-
-.nav-home, .nav-link {
-  text-decoration: none;
-  color: rgb(225, 244, 255);
-}
-
 .nav-home:hover, .nav-link:hover {
   color: rgb(66, 28, 102);
   font-weight: bold;
 }
 
-@media screen and (min-width: 650px) {
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
 
-.nav-buttons{
-  float: right;
-}
-
-.nav-buttons a {
-  padding-right: 30px;
-}
-
-.nav-home {
-  text-align: left;
-}
-}
-
-@media screen and (max-width: 650px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5px 0;
-  }
-}
-
-header {
-  text-align: center;
-}
+} 
 
 .head-shot {
-  width: 100%;
-  height: auto;
+  width: 155px;
+  height: 155px;
   border-radius: 50%;
 }
-
-.headshot-container{
-    height: auto;
-    width: 15%;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    display: inline-block;
-}
-
-@media screen and (max-width: 650px) {
-  .headshot-container {
-    width: 45%;
-  }
-}
-
-h1 span {
-  text-decoration: line-through;
-  margin-bottom: 0;
-}
-section {
-    min-height: 200px;
-    margin: 0;
-  }
-  
-section:nth-child(even) {
-    color: white;
-    background-color: rgb(7, 14, 56);
-  }
-  
-
-  #aboutme {
-    padding: 0 15px;
-  }
 
 .projects-container {
   text-align: center;
@@ -157,20 +111,7 @@ section:nth-child(even) {
   text-decoration: none;
   text-align: center;
   line-height: 26px;
-  color: white;
 }
-
-@media screen and (min-width: 650px) {
-  .projects-container {
-    flex-direction: row;
-  }
-
-  .project {
-    width: 32%;
-  }
-}
-
-
 
 
 .popup-box {
