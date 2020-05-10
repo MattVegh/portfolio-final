@@ -117,10 +117,16 @@ main section {
   font-weight: bold;
 }
 
+.contactlinks {
+  padding: 20px;
+  display: flex;
+}
+
 .contactlinks a:link, .contactlinks a:visited {
-  display: block;
+  color: rgb(225, 244, 255);
+  font-size: 25px;
+  padding: 5px;
   text-decoration: none;
-  text-align: center;
   line-height: 26px;
 }
 
